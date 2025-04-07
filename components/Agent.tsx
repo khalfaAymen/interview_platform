@@ -9,7 +9,7 @@ enum CallStatus {
 }
 const Agent = ({ userName, userId, type }: AgentProps) => {
   const callStatus = CallStatus.ACTIVE;
-  const isSpeaking = false;
+  const isSpeaking = true;
   const messages = [
         "whats your name",
         "my name is john doe and I am a software engineer",
